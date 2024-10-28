@@ -3,18 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
     <title>Vercel HTML Starter</title>
     <meta
       name="description"
       content="High-performance HTML based website template."
     />
+<style>
+  
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+  main {
+    padding: 10px;
+    background-color: black;
+    height: 80vh;
+  }
+body {
+  margin: 0;
+  padding: 0;
+
+}
+section#hero {
+  padding-top: 10vh;
+color: white;
+font-weight: lighter;
+text-align: center;
+font-family: "Rubik Wet Paint", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+}
+.gradient {
+    background: linear-gradient(12deg, #af50f0, #ebe3f0);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+
+section.hero h1{
+  font-weight: 1000; 
+  font-size: ;
+  font-style: italic;
+  margin: 0;
+  text-transform: uppercase;
+
+
+
+}
+section.hero span{
+font-weight: 300;
+font-size: small;
+font-style: normal;
+text-transform: uppercase;
+
+
+}
+section.hero img{
+  width: 70vh;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 10px;
+  
+}
+
+
+
+</style>
+
+
   </head>
   <body>
-   
+
+
+    <main class="gradient">
+<section class="hero" id="hero">
+  <h1>Witam</h1>
+  <span>W grze</span><br>
+<img src="ozdoba.jpg" alt="ozdoba">
+
+</section>
+
+
+
+    </main>
+
+
   </body>
 </html>
